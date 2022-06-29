@@ -1,0 +1,24 @@
+* {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top-box {
+    padding: 0 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+}
