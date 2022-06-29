@@ -36,17 +36,17 @@ a {
   font-size: 18px;
 }
 
-.info {
+.intro {
   display: flex;
   gap: 48px;
   padding: 120px 220px;
 }
 
-.info .card {
+.intro .card {
   flex: 1;
 }
 
-.info .image {
+.intro .image {
   flex: 1;
   background-color: rgb(111, 116, 124);
   display: flex;
@@ -55,20 +55,20 @@ a {
   color: #E5E7EB;
 }
 
-.info .card .hero {
+.intro .card .hero {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
   margin-bottom: 8px;
 }
 
-.info .card .subtext {
+.intro .card .subtext {
   font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 16px;
 }
 
-.info .card button {
+.intro .card button {
   background: #3882F6;
   color: #F9FAF8;
   padding: 8px 32px;
