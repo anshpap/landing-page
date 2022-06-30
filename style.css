@@ -77,3 +77,59 @@ a {
   font-size: 18px;
   font-weight: 600;
 }
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  padding: 50px 0;
+}
+
+.square {
+  height: 164px;
+  width: 164px;
+  border: #3882F6 solid 4px;
+  border-radius: 14px;
+  margin-bottom: 8px;
+}
+
+.content {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+.products .subtext {
+  width: 172px;
+  font-size: 18px;
+  color: rgb(112, 119, 131);
+}
+
+.testimonial {
+  background-color: #E5E7EB;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial .quote {
+  width: 770px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0 
+}
+
+.testimonial .customer {
+  width: 770px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+}
