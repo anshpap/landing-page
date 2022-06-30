@@ -90,7 +90,7 @@ a {
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 .square {
@@ -110,6 +110,7 @@ a {
   gap: 50px;
   justify-content: center;
   margin-bottom: 140px;
+  padding: 0 20px;
   max-width: 838px;
   margin: 0 auto 140px;
   flex-wrap: wrap;
@@ -124,22 +125,21 @@ a {
 .testimonial {
   background-color: #E5E7EB;
   height: 430px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
+.testimonial .container {
+  margin: 116px auto;
+  padding: 0 20px;
+  max-width: 770px;
+}
+  
 .testimonial .quote {
-  width: 770px;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  padding: 0;
 }
 
 .testimonial .customer {
-  width: 770px;
   font-size: 20px;
   font-weight: 600;
   text-align: right;
