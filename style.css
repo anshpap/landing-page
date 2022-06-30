@@ -110,6 +110,9 @@ a {
   gap: 50px;
   justify-content: center;
   margin-bottom: 140px;
+  max-width: 838px;
+  margin: 0 auto 140px;
+  flex-wrap: wrap;
 }
 
 .products .subtext {
