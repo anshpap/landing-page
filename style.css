@@ -133,3 +133,52 @@ a {
   font-weight: 600;
   text-align: right;
 }
+
+.bottom-box {
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  width: 950px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  gap: 120px;
+  border-radius: 12px;
+}
+
+.banner .call-to-action {
+  color: #F9FAF8;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.banner .subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.banner button {
+  background: #3882F6;
+  color: #F9FAF8;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: #F9FAF8 solid 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
