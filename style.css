@@ -7,13 +7,19 @@ body {
 
 .top-box {
   background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 220px;
+  width: 1000px;
+  height: 77px;
+  margin-bottom: 120px;
 }
 
 .header .logo {
@@ -25,6 +31,7 @@ body {
 .header .links {
   display: flex;
   list-style: none;
+  justify-content: end;
   padding: 0;
   margin: 0;
   gap: 24px;
@@ -39,7 +46,8 @@ a {
 .intro {
   display: flex;
   gap: 48px;
-  padding: 120px 220px;
+  width: 1000px;
+  margin-bottom: 120px;
 }
 
 .intro .card {
